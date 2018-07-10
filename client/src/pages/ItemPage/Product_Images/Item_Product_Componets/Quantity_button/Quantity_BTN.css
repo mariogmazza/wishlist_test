@@ -1,0 +1,37 @@
+.product-quantity {
+  display: flex;
+  height: 2.25em;
+  width: 152px;
+  margin: 0.5rem 0;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.product-quantity input {
+  width: 70px;
+  text-align: center;
+  font-size: 1rem;
+  border: none;
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+.product-quantity a {
+  width: 40px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10px;
+  align-content: center;
+  padding: 3px
+}
+
+.product-quantity a:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.product-quantity a:active {
+  background-color: rgba(0, 0, 0, 0.1);
+}

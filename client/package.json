@@ -1,0 +1,48 @@
+{
+  "name": "dropship",
+  "version": "1.0.0",
+  "description": "Dropship",
+  "private": true,
+  "engines": {
+    "node": ">=4.3.0",
+    "npm": ">=4.0.1",
+    "yarn": ">=1.5.1"
+  },
+  "dependencies": {
+    "@material-ui/icons": "^1.1.0",
+    "antd": "^3.3.1",
+    "firebase": "^5.0.1",
+    "google-maps-react": "^2.0.2",
+    "immutable": "^3.7.4",
+    "lodash": "^4.17.10",
+    "material-ui": "^0.20.0",
+    "material-ui-rating": "^2.0.0",
+    "npm": "^6.1.0",
+    "react": "^16.3.2",
+    "react-alice-carousel": "^1.9.1",
+    "react-dom": "^16.3.2",
+    "react-google-map": "^3.1.1",
+    "react-items-carousel": "^2.2.1",
+    "react-material-ui-rating": "^1.2.0",
+    "react-rating": "^1.2.1",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1",
+    "react-shopping-cart": "^1.8.1",
+    "react-slick": "^0.21.0",
+    "reactstrap": "^5.0.0",
+    "recompose": "^0.27.0",
+    "redux-thunk": "^2.2.0",
+    "socket.io-client": "^2.1.0",
+    "typeface-roboto": "0.0.54"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:5000",
+  "devDependencies": {
+    "semantic-ui-react": "^0.81.1"
+  }
+}
